@@ -38,15 +38,7 @@ nav{
     border-top: 2px black solid;
     margin: 0 30px 0 40px;
 }
-@media screen and (max-width:1000px) {
-    .underline-border{
-        display: none;
-    }
-    nav{
-        justify-content: flex-end;
-    }
-    
-}
+
 
 
 .nav-list{
@@ -115,6 +107,9 @@ nav{
     align-items: center;
     margin: 40px 0 0 70px;
 }
+
+
+
 @media screen and (max-width:840px) {
     .left-container{
         width:0% ;
@@ -148,9 +143,25 @@ nav{
 @media screen and (max-width:1390px) {
     .social-media{
         flex-direction: row;
+        margin-left: 20px;
     }
     
 }
+
+@media screen and (max-width:1000px) {
+    .underline-border{
+        display: none;
+    }
+    nav{
+        justify-content: flex-end;
+    }
+    .social-media{
+        margin-left: 0px;
+    }
+}
+
+
+
 @media screen and (max-width:630px) {
     nav {
         display: none;
@@ -161,6 +172,7 @@ nav{
     }
     .text{
         margin-top: 0px;
+        margin-right: 100px;
         
     }
     
@@ -175,6 +187,14 @@ nav{
     font-weight:500 ;
     margin-left:60% ;
     margin-top: 30px;
+}
+@media screen and (max-width:1000px) {
+    .btn{
+       margin-left: 0px;
+    }
+    .container-btn{
+        text-align: center;
+    }
 }
 
 
@@ -224,6 +244,6 @@ img[height="200px"]{
 @media screen and (max-width:1000px) {
     
 .arrow {
-    display: none;
+    
 }    
 }
