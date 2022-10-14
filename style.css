@@ -51,6 +51,7 @@ nav{
 .nav-list-item{
     color: #828282;
     font-size: 20px;
+    cursor: pointer;
    
 
 }
@@ -96,7 +97,7 @@ nav{
 
 .social{
     margin: 20px;
-    
+    cursor: pointer;
 
 
 }
@@ -106,6 +107,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 40px 0 0 70px;
+    
 }
 
 
@@ -187,6 +189,7 @@ nav{
     font-weight:500 ;
     margin-left:60% ;
     margin-top: 30px;
+    cursor: pointer;
 }
 @media screen and (max-width:1000px) {
     .btn{
