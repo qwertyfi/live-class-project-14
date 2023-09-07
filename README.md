@@ -9,7 +9,7 @@ I'm Wasit Ali and this is my 14th project on HTML and CSS.
 
 ![](./assets/2022-10-14-17-22-50.png)
 
-🚀 [Live Preview](https://cheery-scone-c41147.netlify.app/)
+🚀 [Live Preview](https://live-class-project-14-topaz.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
